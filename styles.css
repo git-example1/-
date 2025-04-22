@@ -58,6 +58,15 @@
     color: #c77dff;
 }
 
+.menu li a {
+    text-decoration: none; /* 移除底線 */
+    color: inherit; /* 繼承父元素的文字顏色 */
+}
+
+.menu li a:hover {
+    color: inherit; /* 滑鼠懸停時也繼承父元素的文字顏色 */
+}
+
 .menu.show {
     top: 0; /* 顯示時滑出到視窗內 */
 }
